@@ -909,3 +909,47 @@ body.sidebar-locked {
     cursor: pointer;
     z-index: 1102;
 }
+
+.bottom-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin: 2.5rem 0 1.5rem 0;
+    padding: 1rem 0;
+    background: var(--surface);
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-md);
+    position: relative;
+    z-index: 10;
+}
+.bottom-nav a {
+    display: inline-block;
+    padding: 0.7em 1.5em;
+    border-radius: var(--radius-lg);
+    background: var(--gradient-primary);
+    color: #fff;
+    font-family: var(--font-heading);
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 1.1rem;
+    transition: background 0.2s, color 0.2s, transform 0.2s;
+    box-shadow: var(--shadow-sm);
+}
+.bottom-nav a:hover {
+    background: var(--gradient-secondary);
+    color: #fff;
+    transform: translateY(-2px) scale(1.04);
+}
+@media (max-width: 600px) {
+    .bottom-nav {
+        flex-direction: column;
+        gap: 0.7rem;
+        padding: 0.7rem 0.2rem;
+    }
+    .bottom-nav a {
+        width: 100%;
+        text-align: center;
+        font-size: 1rem;
+        padding: 0.9em 0.5em;
+    }
+}
