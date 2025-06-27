@@ -3,206 +3,157 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Creativity in the Curriculum</title>
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    />
+    <title>Creative Pathways</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
   </head>
   <body>
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-          <a class="navbar-brand" href="#">🎨 Creativity in the Curriculum</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item active">
-                <a class="nav-link" href="#"
-                  >Home <span class="sr-only">(current)</span></a
-                >
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                  Curriculum
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="curriculum/art.html">Art</a>
-                  <a class="dropdown-item" href="curriculum/drama-and-puppetry.html">Drama and Puppetry</a>
-              
-                </div>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="references.html">References</a>
-              </li>
-            </ul>
-          </div>
-        </div>
+    <button class="sidebar-toggle" aria-label="Open menu">
+      <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+      <button class="sidebar-close" aria-label="Close menu">&times;</button>
+      <div class="logo">🌈 Creative Pathways</div>
+      <nav class="nav">
+        <a href="#" class="active">Home</a>
+        <a href="curriculum/art.html">Art</a>
+        <a href="curriculum/drama-and-puppetry.html">Drama & Puppetry</a>
       </nav>
-    </header>
-
-    <main>
-      <section class="hero">
-        <div class="container">
-          <div class="hero-content">
-            <h1>
-              Creativity in the Curriculum: Nurturing Young Minds Through
-              Imagination
-            </h1>
-            <p>
-              Creativity in early childhood education is not merely an artistic
-              skill — it is a way of thinking, exploring, and making meaning. It
-              encompasses a child's ability to imagine, express themselves,
-              solve problems, and view the world through different lenses.
-            </p>
-            <a href="#why-creativity-matters" class="btn btn-outline"
-              >Explore More</a
-            >
+    </aside>
+    <div class="sidebar-overlay"></div>
+    <section class="hero">
+      <div style="max-width: 700px; margin: 0 auto; position: relative; z-index: 2;">
+        <h1>🌟 Welcome to Creativity in the Curriculum</h1>
+        <p style="font-size:1.3rem;">Unlocking Possibilities in Early Childhood Education</p>
+        <img src="img/creativity-matters.jpg" alt="Creative children" style="width: 100%; max-width: 420px; border-radius: 22px; box-shadow: 0 4px 24px rgba(44,62,80,0.13); margin: 2em auto 1.5em auto; display: block;" />
+        <p>Creativity is at the heart of how children learn, explore, and make meaning of the world around them. In early childhood education, creativity is more than painting or building with blocks — it is a dynamic process that allows children to imagine, question, experiment, problem-solve, and express themselves in multiple ways.</p>
+        <p>Every child is born with creative potential, and when educators foster this creativity through intentional planning, responsive interactions, and inspiring environments, children become confident, capable learners. From storytelling and dramatic play to drawing, dancing, and tinkering, creative experiences allow children to connect ideas, feelings, and discoveries in ways that support all areas of development.</p>
+      </div>
+      <a href="#curriculum" class="btn-main">Start Exploring</a>
+      <svg class="wave" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="white" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,58.7C672,53,768,43,864,32C960,21,1056,11,1152,10.7C1248,11,1344,21,1392,26.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section>
+    <main class="main-content" style="margin-bottom:0;">
+      <div class="card" style="grid-column: 1 / -1;">
+        <h2>Why Creativity Matters</h2>
+        <div style="display:flex; flex-wrap:wrap; align-items:center; gap:2em;">
+          <div style="flex:2; min-width:220px;">
+            <p>Fostering creativity supports children's social, emotional, cognitive, and physical development. When children engage in creative play and exploration, they build communication skills, strengthen their sense of identity, and develop resilience. They learn how to work through challenges, consider new perspectives, and express their emotions constructively.</p>
+            <p>Creative experiences also lay the foundation for future learning in areas such as literacy, mathematics, science, and problem-solving. For example, a child building a spaceship from recycled materials is engaging in spatial awareness, collaboration, and storytelling — all within one imaginative activity.</p>
+            <p><em>As Anna Craft (2002) noted, everyday creativity in early years education is essential for lifelong learning and adaptability in a rapidly changing world.</em></p>
+          </div>
+          <div style="flex:1; min-width:180px; text-align:center;">
+            <img src="img/educators.jpg" alt="Creative educator" style="width: 100%; max-width: 220px; border-radius: 22px; box-shadow: 0 4px 24px rgba(44,62,80,0.13);" />
           </div>
         </div>
-      </section>
-
-      <div class="container">
-        <section id="why-creativity-matters" class="feature-section">
-          <div class="feature-image">
-            <img src="img/creativity-matters.jpg" alt="Children engaged in creative activities" class="img-fluid rounded-lg shadow-lg">
-          </div>
-          <div class="feature-content">
-            <h2>✨ Why Creativity Matters</h2>
-            <p>
-              Research shows that creativity enhances children's cognitive,
-              emotional, and social development. It supports divergent thinking,
-              problem-solving, self-regulation, collaboration, and emotional
-              expression.
-            </p>
-            <ul class="creativity-benefits">
-              <li>Enhances cognitive development and neural connectivity</li>
-              <li>Supports emotional intelligence and self-expression</li>
-              <li>Fosters social skills and collaborative learning</li>
-              <li>
-                Encourages problem-solving and critical thinking abilities
-              </li>
-              <li>Builds confidence and self-esteem in young learners</li>
-              <li>Develops flexibility and adaptability in thinking</li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="feature-section reverse">
-          <div class="feature-content">
-            <h2>👩‍🏫 The Role of Educators</h2>
-            <p>
-              Educators play a vital role in fostering creativity by designing
-              rich, engaging environments where children feel safe to explore
-              and express themselves. They act as facilitators, guides, and
-              co-investigators in the creative learning process.
-            </p>
-            <ul class="educator-roles">
-              <li>
-                Provide open-ended materials and encourage experimentation
-              </li>
-              <li>Ask thoughtful questions and model creative thinking</li>
-              <li>
-                Recognize that the process is more important than the product
-              </li>
-              <li>
-                Link children's imaginative play and problem-solving to
-                real-world contexts
-              </li>
-              <li>
-                Create inclusive environments that celebrate diverse forms of
-                expression
-              </li>
-              <li>Document and reflect on children's creative journeys</li>
-              <li>
-                Collaborate with families to extend creative learning at home
-              </li>
-            </ul>
-          </div>
-          <div class="feature-image">
-            <img src="img/educators.jpg" alt="Educator guiding a child's learning" class="img-fluid rounded-lg shadow-lg">
-          </div>
-        </section>
-
-        <section id="curriculum-connections" class="feature-section">
-          <div class="feature-image">
-            <img src="img/curriculum-connections.jpg" alt="Visual representation of curriculum connections" class="img-fluid rounded-lg shadow-lg">
-          </div>
-          <div class="feature-content">
-            <h2>📘 Curriculum Connections</h2>
-            <p>
-              Creativity is embedded across early childhood curriculum
-              frameworks in Australia and globally. It transcends individual
-              subjects and becomes a way of approaching all learning
-              experiences.
-            </p>
-            <ul class="curriculum-connections">
-              <li>
-                <strong>Early Years Learning Framework (EYLF)</strong> - Outcome
-                5: Children are effective communicators
-              </li>
-              <li>
-                <strong>Australian Curriculum (F–2)</strong> - Foundation to
-                Year 2 learning areas
-              </li>
-              <li>
-                <strong>General Capabilities</strong> - Critical and Creative
-                Thinking
-              </li>
-              <li>
-                <strong>Learning Areas</strong> - The Arts, Technologies, and
-                HASS
-              </li>
-              <li>
-                <strong>Cross-curricular Integration</strong> - STEM, STEAM,
-                STREAM & STEMIE approaches
-              </li>
-              <li>
-                <strong>Assessment and Documentation</strong> - Portfolio-based
-                and observational methods
-              </li>
-            </ul>
-          </div>
-        </section>
-
-        <section class="getting-started">
-          <div class="content-card text-center">
-            <h2>Explore Curriculum Areas</h2>
-            <p class="mb-4">
-              Select a curriculum area below to discover how creativity is embedded across the early years.
-            </p>
-            <div class="row justify-content-center">
-              <div class="col-md-8">
-                <ul class="list-group list-group-flush curriculum-links">
-                  <li class="list-group-item"><a href="curriculum/art.html">Art</a></li>
-                  <li class="list-group-item"><a href="curriculum/drama-and-puppetry.html">Drama and Puppetry</a></li>
-                  
-                </ul>
-              </div>
-            </div>
-          </div>
-        </section>
+      </div>
+      <div class="card">
+        <h2>The Role of Educators</h2>
+        <p>Educators play a vital role in supporting creativity in the early years. They do this by offering open-ended materials, creating inclusive and engaging environments, and allowing children the time and freedom to explore their ideas. Educators observe children's interests and offer meaningful provocations that extend thinking, while also modelling curiosity and creative risk-taking.</p>
+        <p>Through thoughtful planning and a deep understanding of child development, educators can integrate creativity across the curriculum, making learning relevant, joyful, and powerful. As noted in the Reggio Emilia philosophy, children have "a hundred languages" — many ways of thinking, expressing, and creating — and it is our job to listen and respond.</p>
+      </div>
+      <div class="card">
+        <h2>What You'll Find on This Site</h2>
+        <p>This website explores how creativity is embedded across ten curriculum areas, each offering unique opportunities for expression and learning:</p>
+        <ul>
+          <li>Art</li>
+          <li>Drama and Puppetry</li>
+          <li>Movement and Music</li>
+          <li>Language and Literacy</li>
+          <li>Science</li>
+          <li>Engineering</li>
+          <li>Technologies</li>
+          <li>Mathematics and Numeracy</li>
+          <li>Humanities and Social Sciences</li>
+          <li>Integrated Curriculum (STEM, STEAM, STREAM)</li>
+        </ul>
+        <p>Each page provides a brief introduction, theoretical insights, recommended materials and tools, and two age-appropriate learning experiences that showcase how educators can support creativity in that area.</p>
+        <p>Together, these pages offer a practical and inspiring guide for fostering creativity in early childhood settings.</p>
+      </div>
+      <div class="card" style="background: #fffbe6; color: #232946; border-left: 8px solid var(--primary);">
+        <h2 style="color: var(--primary);">📚 References (for homepage only)</h2>
+        <ul>
+          <li>Craft, A. (2002). <em>Creativity and early years education: A lifewide foundation.</em> Continuum.</li>
+          <li>Treffinger, D. J., Young, G. C., Selby, E. C., & Shepardson, C. (2002). <em>Assessing creativity: A guide for educators.</em> Center for Creative Learning.</li>
+          <li>Edwards, C., Gandini, L., & Forman, G. (Eds.). (2012). <em>The hundred languages of children: The Reggio Emilia experience in transformation</em> (3rd ed.). Praeger.</li>
+        </ul>
       </div>
     </main>
-
-    <footer>
-      <div class="container text-center py-3">
-        <p>&copy; 2025 Creativity in the Curriculum | Fostering Innovation in Early Childhood Education</p>
+    <section id="curriculum" class="main-content">
+      <div class="card" style="grid-column: 1 / -1;">
+        <h2>Curriculum Areas</h2>
+        <div class="curriculum-links">
+          <a class="curriculum-link" href="curriculum/art.html"><span class="icon"><i class="fas fa-paint-brush"></i></span>Art</a>
+          <a class="curriculum-link" href="curriculum/drama-and-puppetry.html"><span class="icon"><i class="fas fa-theater-masks"></i></span>Drama & Puppetry</a>
+        </div>
       </div>
-    </footer>
+    </section>
+    <script>
+    // Smart sidebar toggle for mobile/tablet
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.querySelector('.sidebar-toggle');
+    const closeBtn = document.querySelector('.sidebar-close');
+    const overlay = document.querySelector('.sidebar-overlay');
+    const navLinks = document.querySelectorAll('.sidebar .nav a');
+    const focusableSelectors = 'a, button, input, [tabindex]:not([tabindex="-1"])';
+    let lastFocused;
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    function openSidebar() {
+      sidebar.classList.add('active');
+      overlay.classList.add('active');
+      document.body.classList.add('sidebar-locked');
+      lastFocused = document.activeElement;
+      // Focus trap
+      setTimeout(() => {
+        const first = sidebar.querySelector(focusableSelectors);
+        if (first) first.focus();
+      }, 100);
+    }
+    function closeSidebar() {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+      document.body.classList.remove('sidebar-locked');
+      if (lastFocused) lastFocused.focus();
+    }
+    toggleBtn.addEventListener('click', () => {
+      if (sidebar.classList.contains('active')) {
+        closeSidebar();
+      } else {
+        openSidebar();
+      }
+    });
+    closeBtn.addEventListener('click', closeSidebar);
+    overlay.addEventListener('click', closeSidebar);
+    navLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        if (window.innerWidth <= 1024) closeSidebar();
+      });
+    });
+    window.addEventListener('resize', () => {
+      if (window.innerWidth > 1024) closeSidebar();
+    });
+    document.addEventListener('keydown', (e) => {
+      if (sidebar.classList.contains('active')) {
+        if (e.key === 'Escape') closeSidebar();
+        // Focus trap
+        if (e.key === 'Tab') {
+          const focusables = sidebar.querySelectorAll(focusableSelectors);
+          if (!focusables.length) return;
+          const first = focusables[0];
+          const last = focusables[focusables.length - 1];
+          if (e.shiftKey) {
+            if (document.activeElement === first) {
+              e.preventDefault();
+              last.focus();
+            }
+          } else {
+            if (document.activeElement === last) {
+              e.preventDefault();
+              first.focus();
+            }
+          }
+        }
+      }
+    });
+    </script>
   </body>
 </html> 

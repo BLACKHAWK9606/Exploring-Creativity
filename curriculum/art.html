@@ -3,111 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Art Curriculum - Creativity in the Curriculum</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <title>Art in Early Childhood Education</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
 </head>
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container">
-                <a class="navbar-brand" href="../index.html">🎨 Creativity in the Curriculum</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" href="../index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown active">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                Curriculum <span class="sr-only">(current)</span>
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="../curriculum/art.html">Art</a>
-                                <a class="dropdown-item" href="../curriculum/drama-and-puppetry.html">Drama and Puppetry</a>
-                            </div>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="../references.html">References</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+    <button class="sidebar-toggle" aria-label="Open menu">
+        <i class="fas fa-bars"></i>
+    </button>
+    <aside class="sidebar">
+        <button class="sidebar-close" aria-label="Close menu">&times;</button>
+        <div class="logo">🎨 Creative Pathways</div>
+        <nav class="nav">
+            <a href="../index.html">Home</a>
+            <a href="#" class="active">Art</a>
+            <a href="drama-and-puppetry.html">Drama & Puppetry</a>
         </nav>
-    </header>
-
-    <main>
-        <section class="hero">
-            <div class="container">
-                <div class="hero-content">
-                    <h1>Art in Early Childhood Education</h1>
-                    <p>A powerful medium for expression, exploration, and learning through creative visual arts.</p>
-                </div>
+    </aside>
+    <div class="sidebar-overlay"></div>
+    <section class="hero" style="min-height: 40vh;">
+        <div style="max-width: 700px; margin: 0 auto; position: relative; z-index: 2;">
+            <h1>🎨 Art in Early Childhood Education</h1>
+            <img src="../img/art-power.jpg" alt="Children creating art" style="width: 100%; max-width: 420px; border-radius: 22px; box-shadow: 0 4px 24px rgba(44,62,80,0.13); margin: 2em auto 1.5em auto; display: block;" />
+        </div>
+        <svg class="wave" viewBox="0 0 1440 60" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="white" fill-opacity="1" d="M0,32L48,37.3C96,43,192,53,288,58.7C384,64,480,64,576,58.7C672,53,768,43,864,32C960,21,1056,11,1152,10.7C1248,11,1344,21,1392,26.7L1440,32L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+    </section>
+    <main class="main-content" style="margin-bottom:0;">
+        <div class="card">
+            <h2><i class="fas fa-palette"></i> Introduction</h2>
+            <p>Art is one of the most natural and expressive forms of creativity for young children. Through drawing, painting, sculpting, and collage, children explore colours, textures, emotions, and ideas. Art allows them to make sense of the world around them and communicate what they cannot yet express with words. The process — not the product — is where the richest learning occurs. As children engage in art, they develop fine motor skills, problem-solving abilities, and self-confidence. Art also supports emotional regulation and gives children a safe space to express their feelings, thoughts, and identities.</p>
+        </div>
+        <div class="card">
+            <h2><i class="fas fa-lightbulb"></i> Theories and Perspectives</h2>
+            <p>Art in early childhood is supported by Howard Gardner's theory of multiple intelligences, particularly visual-spatial intelligence, which recognizes art as a vital way of knowing and expressing. The Reggio Emilia approach also emphasizes that children use "a hundred languages" — including art — to construct meaning and communicate. Lev Vygotsky believed that creativity develops through social interactions, with children learning artistic expression by observing, imitating, and collaborating. These perspectives highlight that art is not an isolated activity, but a deeply social, cognitive, and emotional process embedded in children's everyday experiences.</p>
+        </div>
+        <div class="card">
+            <h2><i class="fas fa-box-open"></i> Resources, Materials, and Digital Tools</h2>
+            <p>To foster creativity through art, educators should offer a wide variety of open-ended materials. These include crayons, oil pastels, paint, glue, recycled cardboard, clay, fabric scraps, and natural materials like leaves and stones. Digital tools such as drawing apps (e.g., Doodle Buddy, Tux Paint) can also expand artistic possibilities. Having an inviting art space that children can access independently encourages self-expression. Materials should be displayed in accessible, organised ways that invite exploration and experimentation. The key is to value the process and allow children to make choices and take creative risks.</p>
+            <img src="../img/art-theories.jpg" alt="Art resources" style="width: 100%; max-width: 320px; border-radius: 22px; box-shadow: 0 4px 24px rgba(44,62,80,0.13); margin: 1.5em auto 0 auto; display: block;" />
+        </div>
+        <div class="card">
+            <h2><i class="fas fa-child"></i> Learning Experiences</h2>
+            <div style="margin-bottom:1.5em;">
+                <h3 style="color:var(--block-art);margin-bottom:0.3em;">Nature Collage <span style="font-size:1rem;color:var(--text-light);">(Age 2–3)</span></h3>
+                <p>Children are taken on a short nature walk to collect leaves, twigs, petals, and small pebbles. Back in the classroom, they use these items to create textured collages on large sheets of recycled paper using glue sticks and child-safe paste. This supports sensory exploration, creative decision-making, and appreciation for natural materials. Educators engage children in conversations about colours, shapes, and textures to expand vocabulary.</p>
             </div>
-        </section>
-
-        <div class="container">
-            <section class="feature-section">
-                <div class="feature-image">
-                    <img src="../img/art-power.jpg" alt="Child deeply engaged in painting" class="img-fluid rounded-lg shadow-lg">
-                </div>
-                <div class="feature-content">
-                    <h2>Introduction</h2>
-                    <p>Art in early childhood education goes far beyond making pretty pictures — it is a powerful medium for expression, exploration, and learning. Through drawing, painting, collage, sculpting, and mixed media, children develop creativity by experimenting with ideas, materials, textures, and techniques. Art helps children make sense of their world, communicate emotions, and develop identity. It also supports the development of fine motor skills, visual-spatial awareness, and cognitive processes like planning and sequencing. In a creative art environment, the emphasis is on the process rather than the product, allowing children to freely express themselves without fear of being "right" or "wrong."</p>
-                </div>
-            </section>
-
-            <section class="feature-section reverse">
-                <div class="feature-content">
-                    <h2>Creativity Theories & Perspectives</h2>
-                    <p>Art in early learning is deeply connected to Howard Gardner's theory of multiple intelligences, especially visual-spatial and bodily-kinesthetic intelligences. Children express themselves visually long before they use words. Vygotsky's sociocultural theory also highlights the importance of social interaction in learning: in art, children co-construct meaning by observing peers and engaging in conversations about their creations. Additionally, the Reggio Emilia approach sees the child as a capable, creative individual who uses "100 languages" — including drawing and painting — to express ideas. In this view, the art space is a "studio" for thinking and discovery, not just making crafts.</p>
-                </div>
-                <div class="feature-image">
-                    <img src="../img/art-theories.jpg" alt="Collaborative art project in a classroom" class="img-fluid rounded-lg shadow-lg">
-                </div>
-            </section>
-
-            <section class="content-card">
-                <div class="row">
-                    <div class="col-md-6">
-                        <h3>Resources & Technologies</h3>
-                        <p>To foster creativity in art, educators can provide:</p>
-                        <ul>
-                            <li><strong>Open-ended materials:</strong> paints, crayons, charcoal, clay, collage paper, natural materials, recycled items.</li>
-                            <li><strong>Loose parts:</strong> buttons, fabrics, beads, leaves, cardboard, sticks.</li>
-                            <li><strong>Display space:</strong> easels, light tables, wall panels to support autonomy.</li>
-                            <li><strong>Digital tools:</strong> apps like Draw and Tell, Tayasui Sketches, or Kapu Bloom Tunes support virtual creativity.</li>
-                            <li><strong>Documentation tools:</strong> tablets or cameras for recording the artistic process (not just the final product).</li>
-                        </ul>
-                        <p>The environment should be organized for choice, autonomy, and aesthetic beauty, encouraging children to select materials, experiment, and revisit their ideas over time.</p>
-                    </div>
-                    <div class="col-md-6">
-                        <h3>Learning Experiences</h3>
-                        
-                        <div class="mb-4">
-                            <h4>Learning Experience 1: "Texture Treasure Hunt" (Age Group: 2–3 years)</h4>
-                            <p>Children explore indoor and outdoor environments to collect textured materials such as leaves, bark, fabric scraps, sponges, and feathers. These materials are placed in a sensory collage tray with glue, paper, and paint. Children create textured art using their hands and tools. Educators model language like "bumpy," "smooth," "soft," and ask open-ended questions like "What does this feel like?" This experience promotes sensory awareness, descriptive language, and autonomy in decision-making.</p>
-                        </div>
-    
-                        <div>
-                            <h4>Learning Experience 2: "My Story in Colour" (Age Group: 3–5 years)</h4>
-                            <p>Children are invited to create a painting based on a recent memory (e.g., going to the park, seeing a family member). They choose colours to represent emotions or ideas (e.g., blue for calm, red for excitement). After painting, each child shares their artwork with peers, describing what their colours and shapes mean. This activity fosters symbolic thinking, emotional literacy, and narrative skills, while also supporting confidence and peer connection.</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
+            <div>
+                <h3 style="color:var(--block-art);margin-bottom:0.3em;">Emotion Self-Portraits <span style="font-size:1rem;color:var(--text-light);">(Age 3–5)</span></h3>
+                <p>Children use mirrors to observe their facial expressions and draw self-portraits using crayons, markers, or paint. Educators encourage them to think about how they feel — happy, surprised, calm, etc. — and how they can show this in their artwork. This experience promotes self-awareness, emotional literacy, and expressive representation. Educators support the process with open-ended questions and by modelling vocabulary related to emotions and facial features.</p>
+            </div>
+        </div>
+        <div class="card" style="background: #fffbe6; color: #232946; border-left: 8px solid var(--block-art);">
+            <h2 style="color: var(--block-art);">📚 References (Art Page)</h2>
+            <ul>
+                <li>Isbell, R., & Raines, S. C. (2012). <em>Creativity and the arts with young children</em> (3rd ed.). Wadsworth Cengage Learning.</li>
+                <li>Wright, S. (2012). <em>Children, meaning-making and the arts</em> (2nd ed.). Pearson Australia.</li>
+                <li>Berk, L. E., & Meyers, A. B. (2014). <em>Infants, children, and adolescents</em> (7th ed.). Pearson.</li>
+                <li>Gardner, H. (1993). <em>Frames of mind: The theory of multiple intelligences</em> (2nd ed.). Basic Books.</li>
+                <li>Edwards, C., Gandini, L., & Forman, G. (Eds.). (2012). <em>The hundred languages of children: The Reggio Emilia experience in transformation</em> (3rd ed.). Praeger.</li>
+            </ul>
         </div>
     </main>
+    <script>
+    // Smart sidebar toggle for mobile/tablet
+    const sidebar = document.querySelector('.sidebar');
+    const toggleBtn = document.querySelector('.sidebar-toggle');
+    const closeBtn = document.querySelector('.sidebar-close');
+    const overlay = document.querySelector('.sidebar-overlay');
+    const navLinks = document.querySelectorAll('.sidebar .nav a');
+    const focusableSelectors = 'a, button, input, [tabindex]:not([tabindex="-1"])';
+    let lastFocused;
 
-    <footer>
-        <div class="container text-center py-3">
-          <p>&copy; 2025 Creativity in the Curriculum | Fostering Innovation in Early Childhood Education</p>
-        </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    function openSidebar() {
+        sidebar.classList.add('active');
+        overlay.classList.add('active');
+        document.body.classList.add('sidebar-locked');
+        lastFocused = document.activeElement;
+        // Focus trap
+        setTimeout(() => {
+            const first = sidebar.querySelector(focusableSelectors);
+            if (first) first.focus();
+        }, 100);
+    }
+    function closeSidebar() {
+        sidebar.classList.remove('active');
+        overlay.classList.remove('active');
+        document.body.classList.remove('sidebar-locked');
+        if (lastFocused) lastFocused.focus();
+    }
+    toggleBtn.addEventListener('click', () => {
+        if (sidebar.classList.contains('active')) {
+            closeSidebar();
+        } else {
+            openSidebar();
+        }
+    });
+    closeBtn.addEventListener('click', closeSidebar);
+    overlay.addEventListener('click', closeSidebar);
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            if (window.innerWidth <= 1024) closeSidebar();
+        });
+    });
+    window.addEventListener('resize', () => {
+        if (window.innerWidth > 1024) closeSidebar();
+    });
+    document.addEventListener('keydown', (e) => {
+        if (sidebar.classList.contains('active')) {
+            if (e.key === 'Escape') closeSidebar();
+            // Focus trap
+            if (e.key === 'Tab') {
+                const focusables = sidebar.querySelectorAll(focusableSelectors);
+                if (!focusables.length) return;
+                const first = focusables[0];
+                const last = focusables[focusables.length - 1];
+                if (e.shiftKey) {
+                    if (document.activeElement === first) {
+                        e.preventDefault();
+                        last.focus();
+                    }
+                } else {
+                    if (document.activeElement === last) {
+                        e.preventDefault();
+                        first.focus();
+                    }
+                }
+            }
+        }
+    });
+    </script>
 </body>
 </html>
